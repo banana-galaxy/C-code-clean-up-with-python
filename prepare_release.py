@@ -34,7 +34,7 @@ while copying it checks for files that have the word "{check}" inside them and d
     print(f'''and an end word: "{end}"\nthe words ''', end="")
     for start2 in start_print:
         print(f'"{start2}", ', end="")
-    print(f'''"{end}", and "{check}"" are all defined in variables at the top of the code
+    print(f'''"{end}", and "{check}" are all defined in variables at the top of the code
 
 Usage: ./prepare_release [SOURCE DIRECTORY]
 ''', end="")
